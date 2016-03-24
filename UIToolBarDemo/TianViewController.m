@@ -105,6 +105,8 @@
     deletButton.showsTouchWhenHighlighted = YES;
     [deletButton addTarget:self action:@selector(deleteThisView:) forControlEvents:UIControlEventTouchUpInside];
     [addView addSubview:deletButton];
+    
+    NSLog(@"我就加了这一行代码");
 }
 
 
